@@ -4,8 +4,8 @@
 
 <h1>Vice Versa</h1>
 
-<form action="/action_page.php">
-    <textarea id="w3review" name="w3review" rows="4" cols="50">
+<form action="{% url 'reverse'%}">
+    <textarea rows="4" cols="50" name="usertext">
   Enter your message here
   </textarea>
     <br><br>
