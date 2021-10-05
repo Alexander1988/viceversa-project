@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Vice Versa</h1>
+
+<form action="{% url 'reverse'%}">
+    <textarea rows="4" cols="50" name="usertext">
+        Reversed text: {{reversedtext}}
+        has the {{nember_of_words}} words
+    </textarea>
+    <br><br>
+    <input type="submit" value="reverse">
+</form>
+
+
+</body>
+</html>
+
